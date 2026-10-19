@@ -46,7 +46,8 @@ nghĩ rộng nhưng chỉ đưa ra ý đã qua chấm điểm, không xả 100 �
 ## Quy trình
 1. **Đọc brief.** Cần: (a) chủ đề kênh / sản phẩm, (b) mục tiêu (reach, bán hàng, thương hiệu, kéo lead), (c) nền tảng +
    định dạng (video ngắn, carousel, status, video dài, livestream), (d) khán giả, (e) giọng kênh & giới hạn (ngân sách,
-   có lộ mặt không, quay một mình hay có team). Thiếu ≤ 2 mục → tự giả định hợp lý và ghi rõ dòng **Giả định:**. Thiếu
+   có lộ mặt không, quay một mình hay có team), (f) phong cách quay (talking head, voiceover, vlog, tiểu phẩm — xem
+   mục 7 `hook-va-cau-truc-kich-ban.md`). Thiếu ≤ 2 mục → tự giả định hợp lý và ghi rõ dòng **Giả định:**. Thiếu
    cả chủ đề lẫn khán giả → hỏi 1 lần, tối đa 4 câu, dùng `K/templates/mau-brief.md`.
 2. **Bản đồ khán giả** theo `khai-thac-khan-gia.md`: B (người xem chính) + 2–4 nhóm O (người trung gian ảnh hưởng/hay
    chia sẻ cho B), mỗi nhóm có nỗi đau / lợi ích muốn đạt / điều tò mò / câu họ hay nói. Người dùng đưa bảng khách hàng
