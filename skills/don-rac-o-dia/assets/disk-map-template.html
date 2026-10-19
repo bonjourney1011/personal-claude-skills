@@ -1,0 +1,60 @@
+<title>Bản đồ ổ đĩa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>/*__CSS__*/</style>
+
+<div class="page">
+  <header class="top">
+    <div class="top-text">
+      <h1>Bản đồ ổ đĩa</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <span class="badge">Chỉ đọc · chưa xóa gì</span>
+  </header>
+
+  <section class="stats" id="stats" aria-label="Tổng quan dung lượng"></section>
+  <section class="grow" id="grow" aria-label="So với lần quét trước"></section>
+
+  <main class="layout">
+    <section class="panel map-panel" aria-label="Bản đồ dung lượng">
+      <div class="panel-head">
+        <h2>Bản đồ dung lượng</h2>
+        <span class="muted small">Ô càng to càng nặng · sọc xanh = an toàn để xóa</span>
+      </div>
+      <div class="treemap" id="treemap"></div>
+      <p class="info" id="info">Bấm vào một ô để xem đường dẫn và dung lượng.</p>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <aside class="panel recs-panel" aria-label="Đề xuất dọn">
+      <div class="panel-head"><h2>Đề xuất dọn</h2></div>
+      <div id="recs"></div>
+    </aside>
+  </main>
+
+  <section class="script-box" id="script-box" hidden>
+    <div class="panel-head">
+      <h2>Script dọn rác (PowerShell)</h2>
+      <span class="small" id="copy-status"></span>
+    </div>
+    <textarea id="script-text" readonly spellcheck="false" aria-label="Script dọn rác"></textarea>
+  </section>
+
+  <p class="foot-note muted small" id="skipped"></p>
+</div>
+
+<footer class="bar">
+  <div class="bar-inner">
+    <span id="selsum"></span>
+    <div class="bar-actions">
+      <button type="button" id="btn-safe">Chọn mục an toàn</button>
+      <button type="button" id="btn-none">Bỏ chọn</button>
+      <button type="button" id="btn-copy" class="primary">Copy script</button>
+    </div>
+  </div>
+</footer>
+
+<script>const DATA = /*__DATA__*/null;</script>
+<script>/*__JS__*/</script>
