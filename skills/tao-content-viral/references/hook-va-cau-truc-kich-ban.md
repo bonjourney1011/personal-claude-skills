@@ -67,7 +67,7 @@ tìm hiểu"); con số cụ thể thay tính từ; mỗi câu một ý; đọc 
 ## 7. Phong cách quay — đổi cột "Hình" theo kiểu người dùng chọn
 | Phong cách | Cột hình ghi gì | Luật riêng |
 |---|---|---|
-| **Talking head** (nói thẳng vào camera) | Cỡ cảnh Trung/Cận (jump cut, phóng 115–130% khi dựng) + chèn | Mặt ở frame đầu; nhìn ống kính; đổi cỡ mỗi 1–2 câu; B-roll ≤ 20%; chuyện ngoài đường → làm xong rồi kể lại (storytime) tại chỗ; in kèm bảng "Chuẩn talking head" (khung, sáng, tiếng, phụ đề, năng lượng) |
+| **Talking head** (nói thẳng vào camera) | Cỡ cảnh Trung/Cận (jump cut, phóng 115–130% khi dựng) + chèn | Mặt ở frame đầu; nhìn ống kính; đổi cỡ mỗi 1–2 câu; B-roll ≤ 20%; **chỉ một người trong hình**: không phỏng vấn, không bắt chuyện người lạ, không chèn clip có người khác (ý cần người khác → loại ở bước chấm); in kèm bảng "Chuẩn talking head" (khung, sáng, tiếng, phụ đề, năng lượng) |
 | **Voiceover / không lộ mặt** | B-roll từng câu, chữ màn hình gánh hook | Hook bằng hình + chữ, không dựa vào biểu cảm; lời đọc chậm hơn 10% |
 | **Vlog / theo chân** | Cảnh thật theo thời gian + selfie nói | Có "nhiệm vụ" rõ ở câu đầu; cắt cảnh 2–3s |
 | **Tiểu phẩm / POV** | Vai, trang phục/vị trí phân vai | Một người đóng nhiều vai: đổi áo hoặc bên khung để phân biệt |

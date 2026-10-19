@@ -46,7 +46,7 @@ cùng một nỗi đau.
 | 5 | Đúng cách tiếp cận | Lệch giọng, lệch nền tảng | Đúng ngôn ngữ, định dạng khán giả đang xem |
 | 6 | **Lý do chia sẻ** (O→B) | Không ai cần gửi | Nói được rõ "X sẽ gửi cho Y vì Z" |
 
-Thêm ±: **Làm được không** — người dùng quay/làm được với nguồn lực đã nói? Không làm được → loại hoặc đơn giản hóa.
+Thêm ±: **Làm được không** — người dùng quay/làm được với nguồn lực **và phong cách quay** đã nói (vd talking head = một người nói, không có người khác)? Không làm được → loại hoặc đơn giản hóa.
 **Gắn mục tiêu** — ý viral mà không dẫn về kênh/sản phẩm chút nào thì ghi rõ "ý kéo reach thuần".
 
 **Loại khi:** tổng < 20; có tiêu chí = 1; **lý do chia sẻ ≤ 2**; khuôn quá phổ biến (hành trình, hậu trường, top)
