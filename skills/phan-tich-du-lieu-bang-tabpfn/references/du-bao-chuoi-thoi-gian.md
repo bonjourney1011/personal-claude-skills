@@ -68,3 +68,24 @@ Mốc ngây thơ bắt buộc: random walk (giá trị giữ nguyên, phân vị
   độ phủ, không trình bày một mức giá.
 - Nhiều model chuỗi thời gian nền được pretrain trên giá công khai. Backtest "zero-shot" trên giai đoạn cũ có thể đẹp
   hơn thực tế. Bằng chứng đáng tin nhất là nhật ký dự báo thật, ghi trước khi biết kết quả.
+
+## 8. Bài học từ dự án dự báo BNB (11/2026)
+Backtest 302 ngày gốc hằng tuần, 2021–2026, tám model, so với random walk. Repo: `bonjourney1011/bnb-forecast`.
+
+| Thiết kế TabPFN | Kỹ năng so với random walk | Dải 80% phủ thực tế |
+|---|---|---|
+| v1: dòng ngữ cảnh theo ngày, mục tiêu 30 ngày chồng lấn | −11,8% | 58% |
+| v2: dòng cách nhau đúng một tầm dự báo, không chồng lấn | −8,0% | 68% |
+| v2 + feature lịch (thứ, ngày trong tháng, tháng) | −7,8% | 75% |
+
+- **Đừng đưa dòng có mục tiêu chồng lấn vào ngữ cảnh.** Các dòng theo ngày với mục tiêu 30 ngày gần như trùng nhau.
+  Model coi đó là nhiều bằng chứng độc lập cho xu hướng gần nhất, nên dải dự báo hẹp quá mức. Lấy dòng cách nhau
+  đúng `h` ngày cho tầm `h`.
+- **Feature lịch không giúp với giá tài sản.** Kỹ năng không đổi; chỉ độ phủ khá hơn một chút.
+- **Model nền đuổi theo xu hướng gần nhất khi dữ liệu trôi.** Dòng ngữ cảnh giống dòng truy vấn nhất là các dòng gần
+  nhất, nên dự báo kéo dài đà vừa xảy ra.
+- ARIMA(0,1,1), Delta-Random Forest và Chronos-2 đều nằm trong khoảng 3% quanh random walk, không khác có ý nghĩa
+  thống kê (Diebold–Mariano, hiệu chỉnh Holm).
+- Thứ dùng được là **dải đã kiểm độ phủ**, không phải hướng giá.
+- Về vận hành: mỗi lần gọi API tốn 10.000 credit bất kể bảng 5.000 hay 17.000 dòng; hạn mức ngày 5 triệu nghĩa là
+  tối đa khoảng 500 lần gọi một ngày. Làm backtest phải lưu kết quả sau từng điểm để chạy tiếp được.
